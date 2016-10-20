@@ -4,6 +4,7 @@ body {
   line-height: 17px;
   color: #333;
   background-color: #fff;
+  background-image: url("../img/pattern/3.png");
   height: 2000px;
 }
 .container {
@@ -158,13 +159,12 @@ a {
   margin-left: -30%;
   text-align: center;
   list-style: none;
-  background-color: green;
 }
 
 .slider-controls .slide-indicator {
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   margin: 2px;
   text-indent: -999px;
   cursor: pointer;
@@ -188,26 +188,46 @@ a {
   display: none;
 }
 .slides .slide1 {
-  width: 1400px;
+  width: 1200px;
   height: 500px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 20px;
+  background-image: url("../img/slide5.jpg");
+  background-repeat: round;
+}
+.slide1 .slide-text {
+  width: 450px;
   position: absolute;
-  background-color: rgba(100, 0, 100, 0.5);
+  bottom: 70px;
+  right: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #344D61;
+  text-align: center;
+  line-height: 30px;
 }
 .slides .slide2 {
-  width: 1400px;
+  width: 1200px;
   height: 500px;
-  position: absolute;
-  background-color: rgba(100, 100, 0, 0.5);
+  margin: 0 auto;
+  border-radius: 20px;
+  background-image: url("../img/slide4.jpg");
+  background-repeat: round;
 }
 .slides .slide3 {
-  width: 1400px;
+  width: 1200px;
   height: 500px;
-  position: absolute;
-  background-color: rgba(200, 50, 50, 0.5);
+  margin: 0 auto;
+  border-radius: 20px;
+  background-image: url("../img/slide3.jpg");
+  background-repeat: round;
+
 }
 
-.cathedra-news {
+section.cathedra-news {
   padding-top: 70px;
+  margin-bottom: 100px;
 }
 .cathedra-news .news-headline {
   margin-bottom: 50px;
@@ -251,6 +271,62 @@ a {
 .content-event .weekday {
   font-weight: normal;
 }
+
+.vk-news {
+  margin-bottom: 80px;
+}
+
+
+
+.cathedra-title {
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.cathedra-text {
+display: inline-block;
+width: 870px;
+font-size: 20px;
+line-height: 33px;
+text-align: left;
+margin-bottom: 60px;
+margin-right: 70px;
+vertical-align: top;
+}
+
+
+
+
+#calendar {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  vertical-align: top;
+}
+#calendar .date {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+#calendar table {
+  border-collapse: collapse;
+}
+
+#calendar td,
+#calendar th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+#calendar th {
+  font-weight: bold;
+  background-color: #E6E6E6;
+}
+
+
 
 
 footer.main-footer {

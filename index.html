@@ -6,6 +6,7 @@
     <title>Кафедра САИТ - ЮФУ</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://vk.com/js/api/openapi.js?133" type="text/javascript"></script>
 </head>
 
 <body>
@@ -48,7 +49,9 @@
     <li class="slide-indicator"></li>
   </ul>
   <div class="slides">
-    <div class="slide slide1 slide-active"></div>
+    <div class="slide slide1 slide-active">
+      <p class="slide-text">Кафедра системного анализа и Телекоммуникаций</p>
+    </div>
     <div class="slide slide2"></div>
     <div class="slide slide3"></div>
   </div>
@@ -156,13 +159,40 @@
                   blanditiis ut nihil, distinctio.</p>
       <div class="content-event">20 сентября | <span class = "weekday"> Вторник</span> </div>
     </div>
-</article3
-
-
-  <article class="news-item"></article>
-  <article class="news-item"></article>
-  <article class="news-item"></article>
+</article>
 </section>
+
+<div class="vk-news container">
+  <!-- VK Widget -->
+  <div id="vk_groups"></div>
+  <script type="text/javascript">
+  VK.Widgets.Group("vk_groups", {mode: 4, wide: 1, width: "1200", height: "800", color1: 'FFFFFF', color2: '000000', color3: '18375A'}, 103545242);
+  </script>
+</div>
+
+<div class="about-cathedra container">
+
+<h2 class= "cathedra-title">О кафедре</h2>
+<p class= "cathedra-text">Кафедрой системного анализа и телекоммуникаций
+готовятся высококвалифицированные специалисты,
+умеющие самостоятельно поставить задачу,
+знающие современные ЭВМ,
+в совершенствовании владеющие навыками программирования
+и разрабатывающие прикладной программный продукт для задач
+управления самыми различными объектами. Основная задача кафедры состоит в подготовке
+системных аналитиков с глубокими знаниями методологии анализа и синтеза сложных
+динамических систем управления, владеющих современными средствами программирования
+и умеющих разрабатывать прикладной программный продукт. Коллектив кафедры системного
+анализа и телекоммуникаций состоит из высококвалифицированных преподавателей.
+Профессиональный уровень преподавателей повышается с помощью активного вовлечения
+ их в научно-исследовательские работы, прохождения сертифицированных профессиональных курсов.
+</p>
+
+<div id ="calendar">
+  <div class="date"><span class="month"></span><span class="year"></span></div>
+</div>
+
+</div>
 
 <footer class="main-footer">
   <div class="container">
@@ -200,6 +230,7 @@
 </footer>
 
 <script src="js/slider.js"></script>
+<script src="js/calendar.js"></script>
 </body>
 
 </html>
