@@ -5,7 +5,6 @@ body {
   color: #333;
   background-color: #fff;
   background-image: url("../img/pattern/3.png");
-  height: 2000px;
 }
 .container {
   width: 1200px;
@@ -61,6 +60,11 @@ a {
   margin: 0 auto;
 }
 
+.navigation-list .active-page li {
+  background-color: #4672C0;
+  border-radius: 25px;
+}
+
 .main-navigation .navigation-item {
   display: inline-block;
   padding: 19px 21px;
@@ -73,10 +77,9 @@ a {
   background-color: #4672C0;
   border-radius: 25px;
 }
-.main-navigation .navigation-item:active {
+.main-navigation .navigation-item:not(.activeLi):active {
   background-color: #3367C0;
   color: #fff;
-
 }
 
 .navigation-item.main-page-item {
@@ -272,11 +275,9 @@ section.cathedra-news {
   font-weight: normal;
 }
 
-.vk-news {
-  margin-bottom: 80px;
+.about-cathedra {
+  padding-top: 80px;
 }
-
-
 
 .cathedra-title {
   margin-bottom: 50px;
@@ -397,4 +398,31 @@ footer.main-footer {
   margin-bottom: 15px;
   font-size: 16px;
   color: #23527c;
+}
+
+/*Education-page*/
+
+.main-education .container {
+  padding-top: 50px;
+}
+
+.main-education .education-title {
+  color: #1C0082;
+  font-size: 40px;
+  padding-bottom: 90px;
+}
+.main-education a.direction {
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+}
+.main-education a.direction h3 {
+  padding-bottom: 50px;
+}
+
+.main-education  .direction-text {
+  font-size: 18px;
+  line-height: 25px;
+  padding-left: 30px;
+  margin-bottom: 50px;
 }
