@@ -38,3 +38,21 @@ function showAndHide() {
 indicator1.addEventListener("click", showAndHide);
 indicator2.addEventListener("click", showAndHide);
 indicator3.addEventListener("click", showAndHide);
+
+function skipSlide() {
+  var indicArray = [indicator1,indicator2,indicator3];
+  for(var i=0; i<indicArray.length; i++) {
+    if( indicArray[i].classList.contains("slide-indicator-active") ) {
+      try {
+        if(i===2){throw new Error("Third element is not defined");}
+        showAndHide.call(indicArray[i+1]);
+      }catch(error) {
+        showAndHide.call(indicArray[0]);
+      }
+      return;
+    }
+
+  }
+}
+
+var timerSkip = setInterval(skipSlide,7000);

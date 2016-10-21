@@ -23,6 +23,9 @@ a {
   color: #fff;
   outline: none;
 }
+.bold {
+  font-weight: bold;
+}
 
 .main-navigation {
   background-color: #1F4B99;
@@ -103,7 +106,7 @@ a {
   padding: 45px 0;
   margin-top: 53px;
   margin-bottom: 20px;
-  background-image: url("../img/background-header.png");
+  background-image: url("../img/fon1.jpg");
   background-position: left;
   background-repeat: round;
 }
@@ -136,12 +139,14 @@ a {
   line-height: 55px;
   text-align: center;
   color: #1F4B99;
+  color: #0097D5;
   vertical-align: top;
   letter-spacing: 1.5px;
 }
 .company-title .note {
   font-size: 30px;
   font-style: italic;
+  color: #C04B04;
 }
 
 /*Слайдер*/
@@ -202,11 +207,11 @@ a {
 .slide1 .slide-text {
   width: 450px;
   position: absolute;
-  bottom: 70px;
+  bottom: 50px;
   right: 20px;
   font-size: 28px;
   font-weight: bold;
-  color: #344D61;
+  color: #061559;
   text-align: center;
   line-height: 30px;
 }
@@ -236,7 +241,7 @@ section.cathedra-news {
   margin-bottom: 50px;
   text-align: center;
   font-size: 35px;
-  color: #1C0082;
+  color: #061559;
 }
 .cathedra-news .news-item {
   margin-bottom: 40px;
@@ -284,6 +289,7 @@ section.cathedra-news {
   font-size: 35px;
   font-weight: bold;
   text-align: left;
+  color: #061559;
 }
 
 .cathedra-text {
@@ -296,7 +302,6 @@ margin-bottom: 60px;
 margin-right: 70px;
 vertical-align: top;
 }
-
 
 
 
@@ -407,22 +412,153 @@ footer.main-footer {
 }
 
 .main-education .education-title {
-  color: #1C0082;
   font-size: 40px;
   padding-bottom: 90px;
+  color: #061559;
 }
 .main-education a.direction {
   font-size: 20px;
-  color: blue;
+  color: #091E80;
   text-decoration: none;
 }
+.main-education a.direction:hover {
+   color: #88A3E4;
+}
+ .main-education a.direction:active {
+    color: #4672C0;
+  }
+
 .main-education a.direction h3 {
   padding-bottom: 50px;
 }
 
 .main-education  .direction-text {
   font-size: 18px;
-  line-height: 25px;
+  line-height: 29px;
   padding-left: 30px;
   margin-bottom: 50px;
+}
+
+/*Education-direction-pages*/
+.direction-title {
+padding-bottom: 60px;
+font-size: 31px;
+ color: #061559;
+}
+.education-programm {
+  padding-left: 20px;
+}
+.education-programm .direction-programm {
+  padding-bottom: 40px;
+  font-size: 23px;
+  color: #3251B8;
+}
+.education-programm .programm-lider {
+  width: 930px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: left;
+}
+.education-programm .programm-period {
+  padding-bottom: 30px;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.about-programm {
+  padding-left: 20px;
+}
+
+.about-programm > li {
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+.about-programm .programm-languages {
+  font-size: 18px;
+}
+
+.about-programm .programm-description-list {
+  padding-left: 40px;
+  list-style:circle;
+}
+.programm-title {
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+.programm-description-list  .programm-description-item {
+  margin-bottom: 45px;
+}
+.programm-description-item .item-title {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.programm-description-item .item-text {
+  width: 800px;
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 31px;
+}
+
+.about-programm-item .programm-content {
+  width: 950px;
+  padding-left: 40px;
+  font-size: 18px;
+  line-height: 31px;
+}
+
+.direction-list-title {
+  padding-top: 30px;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  font-size: 21px;
+}
+.direction-list {
+  padding-left: 80px;
+  padding-bottom: 25px;
+  list-style: circle;
+}
+
+.direction-list-item {
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 25px;
+}
+p.programm-period + ul.direction-list {
+  list-style: disc;
+}
+
+.direction-list .sub-list {
+  padding-left: 30px;
+  list-style: circle;
+}
+.direction-list a {
+  color: #081C77;
+  text-decoration: underline;
+}
+
+.sub-list-item {
+  padding: 11px 5px;
+  line-height: 27px;
+}
+.sub-list-item:first-child {
+  padding-top: 18px;
+}
+.sub-paragraph {
+  padding-left: 25px;
+  padding-bottom: 35px;
+  font-size: 17px;
+  line-height: 24px;
+}
+.additional-paragraph {
+  padding: 20px 0px 30px 35px;
+  font-size: 18px;
+  line-height: 26px;
+
+}
+.short-contains .item-text {
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  line-height: 27px;
 }
