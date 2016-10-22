@@ -562,3 +562,118 @@ p.programm-period + ul.direction-list {
   padding-bottom: 20px;
   line-height: 27px;
 }
+
+/*Workers-page*/
+
+.workers-title {
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  color: #061559;
+}
+.workers-table {
+  width: 100%;
+  padding-left: 30px;
+  margin-bottom: 70px;
+}
+.workers-table-row {
+  border: 1px solid #000;
+}
+.workers-table-row td a {
+  display: block;
+  width: 100%;
+  padding: 15px 45px;
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 1px;
+
+}
+.workers-table-row td:hover {
+  background-color: #D5D5F9;
+}
+.workers-table-row td:active {
+  opacity: 0.7;
+}
+
+/*Workers*/
+
+.worker-main {
+  padding-top: 25px;
+  padding-left: 30px;
+}
+.worker-photo {
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+  vertical-align: top;
+  overflow: hidden;
+}
+.worker-about {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 50px;
+  font-size: 18px;
+  vertical-align: top;
+}
+.worker-profession {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+.worker-profession .worker-place {
+  color: #3571F9;
+  text-decoration: underline;
+}
+.worker-profession .worker-place:hover {
+  color: #0606C9;
+}
+.worker-profession .worker-place:active {
+  opacity: 0.6;
+}
+.worker-position {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.worker-contacts .working-adress {
+  margin-bottom: 35px;
+}
+.worker-contacts .worker-email {
+  font-weight: bolder;
+}
+.worker-email .email {
+  color: #0F0FE4;
+}
+.worker-additional-title{
+  margin-bottom: 20px;
+  padding-top: 30px;
+  font-weight: normal;
+  padding-left: 15px;
+  color: #5C45E4;
+  font-size: 21px;
+}
+.worker-additional-information {
+  line-height: 30px;
+  font-size: 18px;
+  padding-left: 40px;
+  color: black;
+}
+p.worker-list-name {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+ul.worker-education {
+  list-style: circle;
+  padding-left: 50px;
+}
+[class^="science-"] {
+  width: 650px;
+  padding-top: 25px;
+}
+.labour-list {
+  list-style: disc;
+  padding-left: 50px;
+  margin-bottom: 40px;
+}
+.labour-list li {
+  padding: 5px 0;
+}

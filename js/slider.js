@@ -55,4 +55,4 @@ function skipSlide() {
   }
 }
 
-var timerSkip = setInterval(skipSlide,7000);
+var timerSkip = setInterval(skipSlide,8000);
