@@ -411,6 +411,33 @@ footer.main-footer {
   padding-top: 50px;
 }
 
+.enrolling-title {
+  padding-bottom: 40px;
+  color: rgb(6, 21, 89);
+  font-size: 35px;
+}
+.enrolling-table {
+  width: 900px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  border: 2px solid #000;
+}
+.enrolling-table-row:nth-child(1),
+.enrolling-table-row:nth-child(4) {
+  border-bottom: 2px solid #000;
+}
+.enrolling-table th {
+  background-color: #E0E0FA;
+  font-size: 15px;
+}
+
+.enrolling-table th,
+.enrolling-table td {
+  padding: 10px 10px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
 .main-education .education-title {
   font-size: 40px;
   padding-bottom: 90px;
@@ -616,7 +643,7 @@ p.programm-period + ul.direction-list {
   vertical-align: top;
 }
 .worker-profession {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 35px;
 }
 .worker-profession .worker-place {
@@ -635,9 +662,11 @@ p.programm-period + ul.direction-list {
 }
 
 .worker-contacts .working-adress {
+  font-size: 20px;
   margin-bottom: 35px;
 }
 .worker-contacts .worker-email {
+  font-size: 20px;
   font-weight: bolder;
 }
 .worker-email .email {
@@ -657,6 +686,18 @@ p.programm-period + ul.direction-list {
   padding-left: 40px;
   color: black;
 }
+.science-interests,
+.science-courses {
+  font-size: 16px;
+}
+
+.common-information {
+  padding-left: 30px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  line-height: 33px;
+}
+
 p.worker-list-name {
   padding-top: 20px;
   padding-bottom: 10px;
@@ -670,6 +711,7 @@ ul.worker-education {
   padding-top: 25px;
 }
 .labour-list {
+  font-size: 16px;
   list-style: disc;
   padding-left: 50px;
   margin-bottom: 40px;
